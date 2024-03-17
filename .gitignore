@@ -1,0 +1,14 @@
+.venv/*
+.tox/*
+.mypy_cache/*
+.pytest_cache/*
+**/__pycache__/*
+build/*
+dist/*
+**/*.egg-info/*
+
+**/*.ipynb
+**/*.pdf
+**/*.html
+**/*.parquet
+**/*.csv

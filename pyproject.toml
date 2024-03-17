@@ -1,0 +1,40 @@
+[project]
+name = "utils"
+version = "0.1.0"
+readme = "README.md"
+
+dependencies = [
+    "rocrate==0.9.0",  # Research Object Crates for ROC 1.1 Specs
+    "polars>=0.20,<0.21",  # Stable Developmental API
+    "numpy>=1.20,<2,!=1.24.0",
+    "scikit-learn>=1,<2",
+    "jupytext>=1,<2",
+    "h3>=3,<4",
+    "seaborn>=0.13,<0.14",
+    "pandas>=1.2,<2",
+    "matplotlib>=3.4,<4,!=3.6.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pytest",
+    "pytest-cov",
+    "pytest-xdist",
+    "pytest-lazy-fixture",
+    "flake8",
+    "flake8-docstrings",
+    "mypy",
+    "black",
+    "pre-commit",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = [
+    "analysis",
+    "tests",
+]
