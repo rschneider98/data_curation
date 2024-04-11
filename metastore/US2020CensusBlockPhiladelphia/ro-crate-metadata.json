@@ -1,0 +1,87 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "creator": {
+                "@id": "#U.S. Census Bureau"
+            },
+            "datePublished": "2024-03-17",
+            "hasPart": [
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/USCensusDecennialDP2020DP1.csv"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/"
+                }
+            ],
+            "keywords": [
+                "US Census",
+                "US Census Block",
+                "Population",
+                "Ingested Data",
+                "Raw"
+            ],
+            "license": {
+                "@id": "#U.S. Public Domain"
+            },
+            "mainEntity": {
+                "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/"
+            },
+            "name": "US 2020 Census Block Population Data for Philadelphia",
+            "publisher": {
+                "@id": "#U.S. Census Bureau"
+            }
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#U.S. Census Bureau",
+            "@type": "Organization",
+            "name": "U.S. Census Bureau",
+            "url": "https://www.census.gov/"
+        },
+        {
+            "@id": "#U.S. Public Domain",
+            "@type": "License",
+            "name": "U.S. Public Domain",
+            "url": "http://www.usa.gov/publicdomain/label/1.0/"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/18",
+            "@type": "Website",
+            "name": "text/csv"
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/USCensusDecennialDP2020DP1.csv",
+            "@type": "File",
+            "contentSize": "3.48MB",
+            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Block Data for Philadelphia County, Pennsylvania",
+            "encodingFormat": [
+                "text/csv",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/18"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/",
+            "@type": "Dataset",
+            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Block Data for Philadelphia County, Pennsylvania",
+            "hasParts": [
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/USCensusDecennialDP2020DP1.csv"
+                }
+            ]
+        }
+    ]
+}

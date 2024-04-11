@@ -1,0 +1,89 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "creator": {
+                "@id": "#Department of Planning and Development"
+            },
+            "datePublished": "2015-05-26",
+            "hasPart": [
+                {
+                    "@id": "file:///data/extract/OpenDataPhillyLandUse/OpenDataPhillyLandUse.geojson"
+                },
+                {
+                    "@id": "file:///data/extract/OpenDataPhillyLandUse/"
+                }
+            ],
+            "keywords": [
+                "OpenDataPhilly",
+                "Philadelphia City Planning Commission",
+                "Land Use",
+                "Geometry",
+                "Ingested Data",
+                "Raw"
+            ],
+            "license": {
+                "@id": "#Philadelphia Data Terms Of Use"
+            },
+            "mainEntity": {
+                "@id": "file:///data/extract/OpenDataPhillyLandUse/"
+            },
+            "name": "Philadelphia Land Use",
+            "publisher": {
+                "@id": "#Department of Planning and Development"
+            }
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#Department of Planning and Development",
+            "@type": "Organization",
+            "name": "Philadelphia, Pennsylvania Department of Planning and Development",
+            "url": "https://www.phila.gov/departments/department-of-planning-and-development/"
+        },
+        {
+            "@id": "#Philadelphia Data Terms Of Use",
+            "@type": "License",
+            "name": "Philadelphia Data Terms Of Use",
+            "url": "https://www.phila.gov/terms-of-use/"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/1367",
+            "@type": "Website",
+            "name": "application/geo+json"
+        },
+        {
+            "@id": "file:///data/extract/OpenDataPhillyLandUse/OpenDataPhillyLandUse.geojson",
+            "@type": "File",
+            "contentSize": "474.4MB",
+            "encodingFormat": [
+                "application/geo+json",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/1367"
+                }
+            ],
+            "sameAs": "https://opendata.arcgis.com/datasets/e433504739bd41049de5d8f4a22d34ba_0.geojson"
+        },
+        {
+            "@id": "file:///data/extract/OpenDataPhillyLandUse/",
+            "@type": "Dataset",
+            "description": "Complete Geometries of Parcels in Philadelphia with Land Use Designations",
+            "hasParts": [
+                {
+                    "@id": "file:///data/extract/OpenDataPhillyLandUse/OpenDataPhillyLandUse.geojson"
+                }
+            ],
+            "sameAs": "https://metadata.phila.gov/#home/datasetdetails/5543864420583086178c4e74/representationdetails/55438a7f9b989a05172d0cf3/"
+        }
+    ]
+}

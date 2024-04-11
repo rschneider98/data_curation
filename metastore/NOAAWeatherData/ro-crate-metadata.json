@@ -1,0 +1,86 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "creator": {
+                "@id": "#National Centers for Environmental Information"
+            },
+            "datePublished": "2024-03-18",
+            "hasPart": [
+                {
+                    "@id": "file:///data/extract/NOAAWeatherData/ClimateDataRequest3632646.csv"
+                },
+                {
+                    "@id": "file:///data/extract/NOAAWeatherData/"
+                }
+            ],
+            "keywords": [
+                "NOAA",
+                "Local Climatological Data",
+                "Weather",
+                "Ingested Data",
+                "Raw"
+            ],
+            "license": {
+                "@id": "#U.S. Public Domain"
+            },
+            "mainEntity": {
+                "@id": "file:///data/extract/NOAAWeatherData/"
+            },
+            "name": "NOAA Weather Data",
+            "publisher": {
+                "@id": "#National Centers for Environmental Information"
+            }
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#National Centers for Environmental Information",
+            "@type": "Organization",
+            "name": "National Centers for Environmental Information, National Oceanic and Atmospheric Administration",
+            "url": "https://www.ncei.noaa.gov/"
+        },
+        {
+            "@id": "#U.S. Public Domain",
+            "@type": "License",
+            "name": "U.S. Public Domain",
+            "url": "http://www.usa.gov/publicdomain/label/1.0/"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/18",
+            "@type": "Website",
+            "name": "text/csv"
+        },
+        {
+            "@id": "file:///data/extract/NOAAWeatherData/ClimateDataRequest3632646.csv",
+            "@type": "File",
+            "contentSize": "51.64MB",
+            "encodingFormat": [
+                "text/csv",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/18"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/NOAAWeatherData/",
+            "@type": "Dataset",
+            "description": "Local Climatological Data in Philadelphia County, Pennsylvania for Jan 1, 2015 - Dec 31, 2019",
+            "hasParts": [
+                {
+                    "@id": "file:///data/extract/NOAAWeatherData/ClimateDataRequest3632646.csv"
+                }
+            ]
+        }
+    ]
+}

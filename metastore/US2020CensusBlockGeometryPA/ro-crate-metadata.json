@@ -1,0 +1,175 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "creator": {
+                "@id": "#U.S. Census Bureau"
+            },
+            "datePublished": "2021-02-02",
+            "hasPart": [
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.shp"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.shx"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.dbf"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.cpg"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.prj"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/"
+                }
+            ],
+            "keywords": [
+                "US Census",
+                "US Census Block",
+                "Geometry",
+                "Ingested Data",
+                "Raw"
+            ],
+            "license": {
+                "@id": "#U.S. Public Domain"
+            },
+            "mainEntity": {
+                "@id": "file:///data/extract/US2020CensusBlockGeometryPA/"
+            },
+            "name": "US 2020 Census Block Geometries for Pennsylvania",
+            "publisher": {
+                "@id": "#U.S. Census Bureau"
+            }
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#U.S. Census Bureau",
+            "@type": "Organization",
+            "name": "U.S. Census Bureau",
+            "url": "https://www.census.gov/"
+        },
+        {
+            "@id": "#U.S. Public Domain",
+            "@type": "License",
+            "name": "U.S. Public Domain",
+            "url": "http://www.usa.gov/publicdomain/label/1.0/"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/235",
+            "@type": "Website",
+            "name": "ESRI Arc/View ShapeFile"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/277",
+            "@type": "Website",
+            "name": "ESRI Arc/View Shapefile Index"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/320",
+            "@type": "Website",
+            "name": "ESRI Shapefile Projection (Well-Known Text) Format"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271",
+            "@type": "Website",
+            "name": "dBASE Database"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/1253",
+            "@type": "Website",
+            "name": "\tESRI Code Page File"
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.shp",
+            "@type": "File",
+            "contentSize": "352MB",
+            "encodingFormat": [
+                "ESRI Arc/View ShapeFile",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/235"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.shx",
+            "@type": "File",
+            "contentSize": "2.63MB",
+            "encodingFormat": [
+                "ESRI Arc/View Shapefile Index",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/277"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.dbf",
+            "@type": "File",
+            "contentSize": "51.34MB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.cpg",
+            "@type": "File",
+            "contentSize": "1KB",
+            "encodingFormat": [
+                "\tESRI Code Page File",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/1253"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.prj",
+            "@type": "File",
+            "contentSize": "1KB",
+            "encodingFormat": [
+                "ESRI Shapefile Projection (Well-Known Text) Format",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/fmt/320"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusBlockGeometryPA/",
+            "@type": "Dataset",
+            "description": "U.S. 2020 Decennial Census Block Geometries for Pennsylvania",
+            "hasParts": [
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.prj"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.cpg"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.shx"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.shp"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusBlockGeometryPA/US2020CensusBlockGeometryPA.dbf"
+                }
+            ],
+            "sameAs": "https://www.census.gov/geographies/mapping-files/2020/geo/tiger-line-file.html"
+        }
+    ]
+}
