@@ -1,0 +1,460 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "creator": {
+                "@id": "#U.S. Geological Survey"
+            },
+            "datePublished": "2024-04-13",
+            "hasPart": [
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400132075031001.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400001075040301.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400217075142101.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395611075091301.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395353075151501.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395416075150301.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395459075140501.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395705075135901.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400211075093701.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400327075152201.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400424075104901.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400512075033401.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400311075101301.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400055075122501.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400038075094601.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400016075102801.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395849075134201.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395656075104401.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395408075104001.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395341075102101.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400644074590801.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400308074592201.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400516075033201.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/"
+                }
+            ],
+            "keywords": [
+                "USGS",
+                "National Water Information System",
+                "Groundwater",
+                "Ingested Data",
+                "Raw"
+            ],
+            "license": {
+                "@id": "#U.S. Public Domain"
+            },
+            "mainEntity": {
+                "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/"
+            },
+            "name": "USGS Well Groundwater Data Site Metadata",
+            "publisher": {
+                "@id": "#U.S. Geological Survey"
+            }
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#U.S. Geological Survey",
+            "@type": "Organization",
+            "name": "U.S. Geological Survey",
+            "url": "https://www.usgs.gov/"
+        },
+        {
+            "@id": "#U.S. Public Domain",
+            "@type": "License",
+            "name": "U.S. Public Domain",
+            "url": "http://www.usa.gov/publicdomain/label/1.0/"
+        },
+        {
+            "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271",
+            "@type": "Website",
+            "name": "dBASE Database"
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400132075031001.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400001075040301.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400217075142101.rdb",
+            "@type": "File",
+            "contentSize": "3.16KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395611075091301.rdb",
+            "@type": "File",
+            "contentSize": "3.18KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395353075151501.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395416075150301.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395459075140501.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395705075135901.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400211075093701.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400327075152201.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400424075104901.rdb",
+            "@type": "File",
+            "contentSize": "3.16KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400512075033401.rdb",
+            "@type": "File",
+            "contentSize": "3.16KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400311075101301.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400055075122501.rdb",
+            "@type": "File",
+            "contentSize": "3.18KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400038075094601.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400016075102801.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395849075134201.rdb",
+            "@type": "File",
+            "contentSize": "3.17KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395656075104401.rdb",
+            "@type": "File",
+            "contentSize": "3.18KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395408075104001.rdb",
+            "@type": "File",
+            "contentSize": "3.16KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395341075102101.rdb",
+            "@type": "File",
+            "contentSize": "3.19KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400644074590801.rdb",
+            "@type": "File",
+            "contentSize": "3.16KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400308074592201.rdb",
+            "@type": "File",
+            "contentSize": "3.15KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400516075033201.rdb",
+            "@type": "File",
+            "contentSize": "3.16KB",
+            "encodingFormat": [
+                "dBASE Database",
+                {
+                    "@id": "https://www.nationalarchives.gov.uk/PRONOM/x-fmt/271"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/",
+            "@type": "Dataset",
+            "description": "Groundwater Well Site Metadata for Philadelphia County, Pennsylvania",
+            "hasParts": [
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400132075031001.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400001075040301.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400217075142101.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395611075091301.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395353075151501.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395416075150301.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395459075140501.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395705075135901.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400211075093701.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400327075152201.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400424075104901.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400512075033401.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400311075101301.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400055075122501.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400038075094601.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400016075102801.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395849075134201.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395656075104401.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395408075104001.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/395341075102101.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400644074590801.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400308074592201.rdb"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/400516075033201.rdb"
+                }
+            ]
+        }
+    ]
+}
