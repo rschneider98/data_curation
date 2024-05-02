@@ -1,0 +1,150 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "creator": {
+                "@id": "#Schneider, Richard"
+            },
+            "datePublished": "2024-04-22",
+            "hasPart": [
+                {
+                    "@id": "file:///data/common/USGSGroundwaterConformed/USGSGroundwaterConformed.parquet"
+                },
+                {
+                    "@id": "file:///data/common/USGSGroundwaterConformed/"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/"
+                },
+                {
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/"
+                },
+                {
+                    "@id": "file:///analysis/Conform/Conform - Groundwater Data.ipynb"
+                }
+            ],
+            "keywords": [
+                "USGS",
+                "US Geological Survey",
+                "Groundwater",
+                "Geometry"
+            ],
+            "license": {
+                "@id": "#U.S. Public Domain"
+            },
+            "mainEntity": {
+                "@id": "file:///data/common/USGSGroundwaterConformed/"
+            },
+            "name": "USGS Groundwater Well Depth Data and Metadata for Sites in Philadelphia County, Pennsylvania",
+            "publisher": {
+                "@id": "https://github.com/rschneider98/data_curation"
+            }
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#Schneider, Richard",
+            "@type": "Person",
+            "name": "Richard Schneider"
+        },
+        {
+            "@id": "https://github.com/rschneider98/data_curation",
+            "@type": "Organization",
+            "name": "Data Curation Project",
+            "url": "https://github.com/rschneider98/data_curation"
+        },
+        {
+            "@id": "#U.S. Public Domain",
+            "@type": "License",
+            "name": "U.S. Public Domain",
+            "url": "http://www.usa.gov/publicdomain/label/1.0/"
+        },
+        {
+            "@id": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000575.shtml",
+            "@type": "Website",
+            "name": "parquet"
+        },
+        {
+            "@id": "file:///data/common/USGSGroundwaterConformed/USGSGroundwaterConformed.parquet",
+            "@type": "File",
+            "contentSize": "62.6KB",
+            "description": "USGS Groundwater Well Depth Data and Metadata for Sites in Philadelphia County, Pennsylvania",
+            "encodingFormat": [
+                "parquet",
+                {
+                    "@id": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000575.shtml"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/common/USGSGroundwaterConformed/",
+            "@type": "Dataset",
+            "description": "USGS Groundwater Well Depth Data and Metadata for Sites in Philadelphia County, Pennsylvania",
+            "hasParts": [
+                {
+                    "@id": "file:///data/common/USGSGroundwaterConformed/USGSGroundwaterConformed.parquet"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterSiteMetadata/",
+            "@type": "Dataset",
+            "description": "Groundwater Well Site Metadata for Philadelphia County, Pennsylvania",
+            "name": "USGS Well Groundwater Data Site Metadata",
+            "sameAs": "..\\..\\metastore\\USGSGroundwaterSiteMetadata"
+        },
+        {
+            "@id": "file:///data/extract/USGSGroundwaterObservations/",
+            "@type": "Dataset",
+            "description": "Groundwater Well Measurements for Philadelphia County, Pennsylvania",
+            "name": "USGS Well Groundwater Data Site Observations",
+            "sameAs": "..\\..\\metastore\\USGSGroundwaterObservations"
+        },
+        {
+            "@id": "#python",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.12.2",
+            "url": "https://www.python.org/downloads/release/python-3122/",
+            "version": "3.12.2"
+        },
+        {
+            "@id": "file:///analysis/Conform/Conform - Groundwater Data.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode",
+                "ComputationalWorkflow"
+            ],
+            "author": {
+                "@id": "#Schneider, Richard"
+            },
+            "name": "file:///analysis/Conform/Conform - Groundwater Data",
+            "programmingLanguage": {
+                "@id": "#python"
+            }
+        },
+        {
+            "@id": "#Conform - Groundwater Data",
+            "@type": "CreateAction",
+            "instrument": {
+                "@id": "file:///analysis/Conform/Conform - Groundwater Data.ipynb"
+            },
+            "name": "Conform Census Data",
+            "result": {
+                "@id": "file:///data/common/USGSGroundwaterConformed/"
+            }
+        }
+    ]
+}

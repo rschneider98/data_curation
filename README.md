@@ -44,6 +44,43 @@ Similarly, using the web interface for the Census, to find the 2020 Geographies,
 
 From NOAA's Weather and Climate Resources, there is the [Past Weather Dataset](https://www.ncdc.noaa.gov/cdo-web/datatools/lcd). I selected Philadelphia County, Pennsylvania and the two available stations are the Northeast Philadelphia Airport and the Philadelphia International Airport. From this, I selected Jan 1, 2015 - Dec 31, 2019 for the date ranges to observe.
 
+## Conforming Data
+
+Data will be in the parquet format, and if geometry is associated with this data, those geometries will be stored in a GeoJSON column or a Hash column. Cell hashes are used to describe areas and locations in approximations to improve handling of geographic math.
+
+## Derived Datasets
+
+- Census block geometries will be filled in with hashed cells. Since Blocks are mutually exclusive and exhaustive, and cells are only included/excluded when filling based on their center-points, the hashes will also retain that characteristic. We will then join population data to these hashed cells, and we will also assume that population is uniformly distributed between cells for simplicity.
+- Land Use data will be hashed
+- Streets geometries will be hashed
+- Weather data will move formats
+- Groundwater data will be hashed into cells based on site location
+
+## Exploratory Analysis Questions
+
+- Which wells are in which aquifers?
+- What seasonality do the water levels show?
+- Are water levels similar in different aquifers or different wells?
+- At what granularity could a model look at the data?
+    - Time component: Monthly?
+    - Geographic Component: A couple of different cell sizes?
+- What features from other datasets could be of use?
+    - Rainfall
+        - Prior Month
+        - Expectation for Next Month
+    - Temperature
+        - Average High and Low of Past Month
+        - Expectations for Next Month
+    - Land Use
+        - Dominant Land Use Category in X/Y/Z distances
+        - Secondary Land Use Category in X/Y/Z distances
+        - Count of Properties of each major category of land use in X/Y/Z distances
+    - Streets
+        - Mileage of streets by categories within X/Y/Z distances
+- Do any of the features have a correlation to the well groundwater measurements?
+    - Compare the well data to their aquifer amount to see explainable differences
+    - Compare aquifer amounts to all wells in the county to see explainable differences
+
 ## Tests
 
 Tests are run with Tox.

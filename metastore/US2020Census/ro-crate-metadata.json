@@ -1,0 +1,150 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "creator": {
+                "@id": "#Schneider, Richard"
+            },
+            "datePublished": "2024-04-22",
+            "hasPart": [
+                {
+                    "@id": "file:///data/common/US2020Census/US2020Census.parquet"
+                },
+                {
+                    "@id": "file:///data/common/US2020Census/"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusZCTA5PA/"
+                },
+                {
+                    "@id": "file:///data/extract/US2020CensusZCTA5Geometry/"
+                },
+                {
+                    "@id": "file:///analysis/Conform/Conform - Census Data.ipynb"
+                }
+            ],
+            "keywords": [
+                "US Census",
+                "US Census ZCTA5",
+                "Population",
+                "Geometry"
+            ],
+            "license": {
+                "@id": "#U.S. Public Domain"
+            },
+            "mainEntity": {
+                "@id": "file:///data/common/US2020Census/"
+            },
+            "name": "US 2020 Census Zip Population Data with Shapes for Philadelphia County",
+            "publisher": {
+                "@id": "https://github.com/rschneider98/data_curation"
+            }
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "#Schneider, Richard",
+            "@type": "Person",
+            "name": "Richard Schneider"
+        },
+        {
+            "@id": "https://github.com/rschneider98/data_curation",
+            "@type": "Organization",
+            "name": "Data Curation Project",
+            "url": "https://github.com/rschneider98/data_curation"
+        },
+        {
+            "@id": "#U.S. Public Domain",
+            "@type": "License",
+            "name": "U.S. Public Domain",
+            "url": "http://www.usa.gov/publicdomain/label/1.0/"
+        },
+        {
+            "@id": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000575.shtml",
+            "@type": "Website",
+            "name": "parquet"
+        },
+        {
+            "@id": "file:///data/common/US2020Census/US2020Census.parquet",
+            "@type": "File",
+            "contentSize": "1.68MB",
+            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Zip Data with Shapes for Philadelphia County",
+            "encodingFormat": [
+                "parquet",
+                {
+                    "@id": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000575.shtml"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/common/US2020Census/",
+            "@type": "Dataset",
+            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Zip Data with Shapes for Philadelphia County",
+            "hasParts": [
+                {
+                    "@id": "file:///data/common/US2020Census/US2020Census.parquet"
+                }
+            ]
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusZCTA5PA/",
+            "@type": "Dataset",
+            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Zip Data for Pennsylvania",
+            "name": "US 2020 Census Zip Population Data for Pennsylvania",
+            "sameAs": "..\\..\\metastore\\US2020CensusZCTA5PA"
+        },
+        {
+            "@id": "file:///data/extract/US2020CensusZCTA5Geometry/",
+            "@type": "Dataset",
+            "description": "U.S. 2020 Decennial Census ZIP Geometries",
+            "name": "US 2020 Census ZCTA5 Geometries",
+            "sameAs": "..\\..\\metastore\\US2020CensusZCTA5Geometry"
+        },
+        {
+            "@id": "#python",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.12.2",
+            "url": "https://www.python.org/downloads/release/python-3122/",
+            "version": "3.12.2"
+        },
+        {
+            "@id": "file:///analysis/Conform/Conform - Census Data.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode",
+                "ComputationalWorkflow"
+            ],
+            "author": {
+                "@id": "#Schneider, Richard"
+            },
+            "name": "file:///analysis/Conform/Conform - Census Data",
+            "programmingLanguage": {
+                "@id": "#python"
+            }
+        },
+        {
+            "@id": "#Conform - Census Data",
+            "@type": "CreateAction",
+            "instrument": {
+                "@id": "file:///analysis/Conform/Conform - Census Data.ipynb"
+            },
+            "name": "Conform Census Data",
+            "result": {
+                "@id": "file:///data/common/US2020Census/"
+            }
+        }
+    ]
+}

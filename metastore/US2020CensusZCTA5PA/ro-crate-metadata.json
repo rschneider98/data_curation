@@ -10,10 +10,10 @@
             "datePublished": "2024-03-17",
             "hasPart": [
                 {
-                    "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/USCensusDecennialDP2020DP1.csv"
+                    "@id": "file:///data/extract/US2020CensusZCTA5PA/USCensusDecennialDP2020DP1.csv"
                 },
                 {
-                    "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/"
+                    "@id": "file:///data/extract/US2020CensusZCTA5PA/"
                 }
             ],
             "keywords": [
@@ -27,9 +27,9 @@
                 "@id": "#U.S. Public Domain"
             },
             "mainEntity": {
-                "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/"
+                "@id": "file:///data/extract/US2020CensusZCTA5PA/"
             },
-            "name": "US 2020 Census Block Population Data for Philadelphia",
+            "name": "US 2020 Census Zip Population Data for Pennsylvania",
             "publisher": {
                 "@id": "#U.S. Census Bureau"
             }
@@ -62,10 +62,10 @@
             "name": "text/csv"
         },
         {
-            "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/USCensusDecennialDP2020DP1.csv",
+            "@id": "file:///data/extract/US2020CensusZCTA5PA/USCensusDecennialDP2020DP1.csv",
             "@type": "File",
             "contentSize": "3.48MB",
-            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Block Data for Philadelphia County, Pennsylvania",
+            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Zip Data for Pennsylvania",
             "encodingFormat": [
                 "text/csv",
                 {
@@ -74,12 +74,12 @@
             ]
         },
         {
-            "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/",
+            "@id": "file:///data/extract/US2020CensusZCTA5PA/",
             "@type": "Dataset",
-            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Block Data for Philadelphia County, Pennsylvania",
+            "description": "U.S. 2020 Decennial Census for the Survey and Populations and People Zip Data for Pennsylvania",
             "hasParts": [
                 {
-                    "@id": "file:///data/extract/US2020CensusBlockPhiladelphia/USCensusDecennialDP2020DP1.csv"
+                    "@id": "file:///data/extract/US2020CensusZCTA5PA/USCensusDecennialDP2020DP1.csv"
                 }
             ]
         }

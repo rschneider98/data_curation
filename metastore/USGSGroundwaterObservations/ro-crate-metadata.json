@@ -10,76 +10,76 @@
             "datePublished": "2024-04-13",
             "hasPart": [
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400132075031001.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400132075031001.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400001075040301.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400001075040301.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400217075142101.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400217075142101.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395611075091301.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395611075091301.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395353075151501.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395353075151501.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395416075150301.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395416075150301.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395459075140501.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395459075140501.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395705075135901.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395705075135901.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400211075093701.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400211075093701.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400327075152201.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400327075152201.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400424075104901.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400424075104901.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400512075033401.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400512075033401.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400311075101301.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400311075101301.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400055075122501.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400055075122501.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400038075094601.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400038075094601.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400016075102801.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400016075102801.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395849075134201.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395849075134201.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395656075104401.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395656075104401.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395408075104001.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395408075104001.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395341075102101.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395341075102101.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400644074590801.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400644074590801.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400308074592201.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400308074592201.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400516075033201.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400516075033201.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/"
                 }
             ],
             "keywords": [
@@ -93,7 +93,7 @@
                 "@id": "#U.S. Public Domain"
             },
             "mainEntity": {
-                "@id": "file:///data/extract/USGSGroundwater/"
+                "@id": "file:///data/extract/USGSGroundwaterObservations/"
             },
             "name": "USGS Well Groundwater Data Site Observations",
             "publisher": {
@@ -128,7 +128,7 @@
             "name": "dBASE Database"
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400132075031001.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400132075031001.rdb",
             "@type": "File",
             "contentSize": "28.15KB",
             "encodingFormat": [
@@ -139,7 +139,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400001075040301.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400001075040301.rdb",
             "@type": "File",
             "contentSize": "28.23KB",
             "encodingFormat": [
@@ -150,7 +150,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400217075142101.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400217075142101.rdb",
             "@type": "File",
             "contentSize": "36.35KB",
             "encodingFormat": [
@@ -161,7 +161,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395611075091301.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395611075091301.rdb",
             "@type": "File",
             "contentSize": "27.98KB",
             "encodingFormat": [
@@ -172,7 +172,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395353075151501.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395353075151501.rdb",
             "@type": "File",
             "contentSize": "33.25KB",
             "encodingFormat": [
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395416075150301.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395416075150301.rdb",
             "@type": "File",
             "contentSize": "33.99KB",
             "encodingFormat": [
@@ -194,7 +194,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395459075140501.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395459075140501.rdb",
             "@type": "File",
             "contentSize": "21.82KB",
             "encodingFormat": [
@@ -205,7 +205,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395705075135901.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395705075135901.rdb",
             "@type": "File",
             "contentSize": "21.77KB",
             "encodingFormat": [
@@ -216,7 +216,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400211075093701.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400211075093701.rdb",
             "@type": "File",
             "contentSize": "34.42KB",
             "encodingFormat": [
@@ -227,7 +227,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400327075152201.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400327075152201.rdb",
             "@type": "File",
             "contentSize": "37.05KB",
             "encodingFormat": [
@@ -238,7 +238,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400424075104901.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400424075104901.rdb",
             "@type": "File",
             "contentSize": "38.53KB",
             "encodingFormat": [
@@ -249,7 +249,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400512075033401.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400512075033401.rdb",
             "@type": "File",
             "contentSize": "36.62KB",
             "encodingFormat": [
@@ -260,7 +260,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400311075101301.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400311075101301.rdb",
             "@type": "File",
             "contentSize": "38.34KB",
             "encodingFormat": [
@@ -271,7 +271,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400055075122501.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400055075122501.rdb",
             "@type": "File",
             "contentSize": "22.04KB",
             "encodingFormat": [
@@ -282,7 +282,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400038075094601.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400038075094601.rdb",
             "@type": "File",
             "contentSize": "28.81KB",
             "encodingFormat": [
@@ -293,7 +293,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400016075102801.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400016075102801.rdb",
             "@type": "File",
             "contentSize": "22.16KB",
             "encodingFormat": [
@@ -304,7 +304,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395849075134201.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395849075134201.rdb",
             "@type": "File",
             "contentSize": "21.14KB",
             "encodingFormat": [
@@ -315,7 +315,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395656075104401.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395656075104401.rdb",
             "@type": "File",
             "contentSize": "21.01KB",
             "encodingFormat": [
@@ -326,7 +326,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395408075104001.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395408075104001.rdb",
             "@type": "File",
             "contentSize": "37.01KB",
             "encodingFormat": [
@@ -337,7 +337,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/395341075102101.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/395341075102101.rdb",
             "@type": "File",
             "contentSize": "33.52KB",
             "encodingFormat": [
@@ -348,7 +348,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400644074590801.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400644074590801.rdb",
             "@type": "File",
             "contentSize": "37.7KB",
             "encodingFormat": [
@@ -359,7 +359,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400308074592201.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400308074592201.rdb",
             "@type": "File",
             "contentSize": "38.23KB",
             "encodingFormat": [
@@ -370,7 +370,7 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/400516075033201.rdb",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/400516075033201.rdb",
             "@type": "File",
             "contentSize": "35.02KB",
             "encodingFormat": [
@@ -381,78 +381,78 @@
             ]
         },
         {
-            "@id": "file:///data/extract/USGSGroundwater/",
+            "@id": "file:///data/extract/USGSGroundwaterObservations/",
             "@type": "Dataset",
             "description": "Groundwater Well Measurements for Philadelphia County, Pennsylvania",
             "hasParts": [
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400132075031001.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400132075031001.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400001075040301.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400001075040301.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400217075142101.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400217075142101.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395611075091301.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395611075091301.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395353075151501.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395353075151501.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395416075150301.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395416075150301.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395459075140501.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395459075140501.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395705075135901.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395705075135901.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400211075093701.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400211075093701.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400327075152201.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400327075152201.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400424075104901.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400424075104901.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400512075033401.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400512075033401.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400311075101301.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400311075101301.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400055075122501.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400055075122501.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400038075094601.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400038075094601.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400016075102801.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400016075102801.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395849075134201.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395849075134201.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395656075104401.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395656075104401.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395408075104001.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395408075104001.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/395341075102101.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/395341075102101.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400644074590801.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400644074590801.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400308074592201.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400308074592201.rdb"
                 },
                 {
-                    "@id": "file:///data/extract/USGSGroundwater/400516075033201.rdb"
+                    "@id": "file:///data/extract/USGSGroundwaterObservations/400516075033201.rdb"
                 }
             ]
         }
